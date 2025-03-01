@@ -79,4 +79,9 @@ sudo systemctl restart sshd
 
 ---
 
+### Credits  
+
+This script was inspired by a template provided by **Trixzyy**.  
+Special thanks to **Trixzyy** for the original concept and structure!  
+
 For support, contact `ventix192` on Discord.
