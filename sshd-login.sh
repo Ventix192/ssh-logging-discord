@@ -90,7 +90,6 @@ case "$PAM_TYPE" in
         ;;
 esac
 
-# If payload exists, fire webhook
 if [ -n "$PAYLOAD" ]; then
     curl -X POST -H 'Content-Type: application/json' -d "$PAYLOAD" "$WEBHOOK_URL"
 fi
